@@ -306,8 +306,8 @@ void CMasternodePayments::FillBlockPayee(CMutableTransaction& txNew, int64_t nFe
 	//Adding devfee to the TX
 
     CAmount devfee=0;
-  if(pindexPrev->nHeight+1 >= 260000){
-     devfee = blockValue * 0.10; //10%
+  if(pindexPrev->nHeight+1 >= 60000){
+     devfee = blockValue * 0.01; //10%
   }
   else{
      devfee = blockValue * 0; //0%
