@@ -243,7 +243,7 @@ static CMainParams mainParams;
 
 std::string CChainParams::GetDevFeeRewardAddress()
 {
-	return "GT1qJ8BTCSfjLLQknaLC2oAsT83JUd7pEV";
+	return "GM5JMCnPHaAs3Pww7qcRHBNxPiX9TyFiQv";
 }
 
 CScript CChainParams::GetScriptForDevFeeDestination() {
